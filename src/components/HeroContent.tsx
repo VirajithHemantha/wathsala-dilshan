@@ -13,18 +13,18 @@ export const HeroContent: React.FC = () => {
     : `Together with our families, we joyfully invite you to join us`;
 
   return (
-    <section className="relative min-h-[80vh] sm:min-h-screen py-24 sm:py-32 flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[60vh] sm:min-h-screen pt-16 pb-12 sm:py-32 flex items-start sm:items-center justify-center overflow-hidden">
       <CornerFlowers position="all" opacity={0.8} scale={1.8} />
       {/* Background Image with Elegant Overlays */}
       <div className="absolute inset-0 z-0 bg-brand-ivory overflow-hidden">
         <img
           src="/ChatGPT Image Jun 20, 2026, 03_42_23 AM.png"
           alt="Wedding Background"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover opacity-30"
         />
-        <div className="absolute inset-0 bg-white/10" />
+        <div className="absolute inset-0 bg-white/30" />
         <div className="absolute inset-0 bg-gradient-to-br from-brand-primary/10 via-transparent to-brand-primary/5" />
-        <div className="absolute inset-0 bg-black/10 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-black/5 mix-blend-multiply" />
       </div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
@@ -43,22 +43,22 @@ export const HeroContent: React.FC = () => {
           </div>
 
           <div className="flex flex-col items-center justify-center mb-10 text-center space-y-2">
-            <span className="text-brand-primary uppercase tracking-[0.6em] text-xs sm:text-sm font-medium drop-shadow-sm font-sans">
+            <span className="text-brand-primary uppercase tracking-[0.6em] text-xs sm:text-sm font-bold drop-shadow-md font-sans">
               The Celebration of Love
             </span>
-            <span className="text-brand-primary font-sinhala tracking-[0.1em] text-base sm:text-lg font-medium drop-shadow-sm">
+            <span className="text-brand-primary font-sinhala tracking-[0.1em] text-base sm:text-lg font-bold drop-shadow-md">
               ආදරයේ සැමරුම
             </span>
           </div>
 
           <div className="relative mb-12 w-full flex justify-center text-center">
-            <h1 className="relative text-6xl sm:text-8xl lg:text-9xl font-display text-stone-800 leading-tight drop-shadow-sm flex flex-col items-center">
-              <span className="font-sinhala text-4xl sm:text-6xl lg:text-7xl mb-4 text-stone-800 tracking-wide font-normal">
+            <h1 className="relative text-6xl sm:text-8xl lg:text-9xl font-display text-stone-900 leading-tight drop-shadow-xl font-bold flex flex-col items-center">
+              <span className="font-sinhala text-4xl sm:text-6xl lg:text-7xl mb-4 text-stone-900 tracking-wide font-bold">
                 දිල්ෂාන් සහ වත්සලා
               </span>
               <div>
                 Dilshan <br className="sm:hidden" />
-                <span className="text-brand-primary-light italic font-light mx-4 sm:mx-8 text-5xl sm:text-7xl lg:text-8xl inline-block -translate-y-2 sm:-translate-y-4">&</span>
+                <span className="text-brand-primary italic font-semibold mx-4 sm:mx-8 text-5xl sm:text-7xl lg:text-8xl inline-block -translate-y-2 sm:-translate-y-4">&</span>
                 <br className="sm:hidden" />
                 Wathsala
               </div>
@@ -66,16 +66,16 @@ export const HeroContent: React.FC = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
-            <div className="hidden sm:block h-[1px] w-24 bg-gradient-to-r from-transparent to-brand-primary/40" />
+            <div className="hidden sm:block h-[1px] w-24 bg-gradient-to-r from-transparent to-brand-primary/60" />
             <div className="flex flex-col items-center gap-4 max-w-2xl text-center px-4">
-              <p className="text-xl sm:text-3xl font-serif italic text-stone-700 tracking-wide leading-relaxed">
+              <p className="text-xl sm:text-3xl font-serif italic text-stone-900 tracking-wide leading-relaxed drop-shadow-sm font-medium">
                 {invitationText}
               </p>
-              <p className="text-lg sm:text-2xl font-sinhala text-stone-700 leading-relaxed font-medium">
+              <p className="text-lg sm:text-2xl font-sinhala text-stone-900 leading-relaxed font-bold drop-shadow-sm">
                 {(prefix && name) ? `${prefix} ${name} වෙත, අපගේ විවාහ මංගල්‍යයට එක්වන ලෙස අපි ඉතා සතුටින් ඔබට ආරාධනා කරන්නෙමු` : `අපගේ පවුල් සමඟ, අපගේ විවාහ මංගල්‍යයට එක්වන ලෙස අපි ඉතා සතුටින් ඔබට ආරාධනා කරන්නෙමු`}
               </p>
             </div>
-            <div className="hidden sm:block h-[1px] w-24 bg-gradient-to-l from-transparent to-brand-primary/40" />
+            <div className="hidden sm:block h-[1px] w-24 bg-gradient-to-l from-transparent to-brand-primary/60" />
           </div>
 
           {/* Enhanced Date pill with premium glass effect */}
