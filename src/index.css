@@ -10,24 +10,31 @@
   --color-brand-gold: #555555;
   --color-brand-gold-light: #AAAAAA;
   --color-brand-gold-deep: #222222;
-  
-  --color-brand-primary: #8B0000; /* Deep Red */
-  --color-brand-primary-light: #B22222; /* Firebrick */
-  --color-brand-primary-deep: #5C0000; /* Dark Red */
-  --color-brand-primary-muted: #CD5C5C; /* Indian Red */
-  
+
+  --color-brand-primary: #8B0000;
+  /* Deep Red */
+  --color-brand-primary-light: #B22222;
+  /* Firebrick */
+  --color-brand-primary-deep: #5C0000;
+  /* Dark Red */
+  --color-brand-primary-muted: #CD5C5C;
+  /* Indian Red */
+
   --color-brand-champagne: #F5F5F5;
   --color-brand-ivory: #FFFFFF;
-  --color-brand-pink: #FF0000; /* Red accent */
+  --color-brand-pink: #FF0000;
+  /* Red accent */
   --color-brand-white: #FFFFFF;
-  --color-brand-accent: #8B0000; /* Red Accent */
-  --color-brand-dark: #3A0000; /* Dark Maroon */
+  --color-brand-accent: #8B0000;
+  /* Red Accent */
+  --color-brand-dark: #3A0000;
+  /* Dark Maroon */
 
   /* Church Theme */
   --color-church-primary: #8F9779;
   --color-church-light: #C0C8AD;
   --color-church-bg: #F4F6F0;
-  
+
   /* Poruwa Theme */
   --color-poruwa-primary: #8B0000;
   --color-poruwa-light: #FFB6C1;

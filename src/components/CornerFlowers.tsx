@@ -26,7 +26,7 @@ export const CornerFlowers: React.FC<CornerFlowersProps> = ({
       whileInView={{ opacity: opacity, scale: scale }}
       viewport={{ once: true }}
       transition={{ duration: 2, ease: "easeOut" }}
-      className={`absolute ${corners[pos]} w-32 h-32 sm:w-48 sm:h-48 lg:w-72 lg:h-72 pointer-events-none z-30 overflow-hidden`}
+      className={`absolute ${corners[pos]} w-32 h-32 sm:w-48 sm:h-48 lg:w-72 lg:h-72 pointer-events-none z-30`}
     >
       {/* Floral image removed */}
     </motion.div>

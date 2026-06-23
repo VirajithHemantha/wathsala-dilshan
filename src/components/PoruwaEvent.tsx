@@ -4,7 +4,7 @@ import { Clock, Calendar, Heart, Sparkles, MapPin } from 'lucide-react';
 
 export const PoruwaEvent: React.FC = () => {
   return (
-    <div className="py-16 sm:py-24 bg-poruwa-bg relative overflow-hidden">
+    <div className="pt-0 pb-16 sm:py-24 bg-poruwa-bg relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 relative">
         <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[70%] h-[70%] bg-gradient-radial from-poruwa-light/30 to-transparent rounded-full blur-[100px] pointer-events-none" />
 
@@ -15,93 +15,80 @@ export const PoruwaEvent: React.FC = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 1.2, ease: "easeOut" }}
+              className="relative bg-[url('/mobile-bg.jpeg')] sm:bg-none bg-[length:100%_100%] bg-center bg-no-repeat -mx-4 sm:mx-0 rounded-none sm:rounded-none pt-48 pb-20 px-8 sm:p-0 shadow-lg sm:shadow-none overflow-hidden"
             >
-              <div className="inline-flex items-center gap-4 mb-6">
-                <div className="w-12 sm:w-20 h-[1px] bg-gradient-to-l from-poruwa-primary/60 to-transparent" />
-                <div className="flex flex-col items-center">
-                  <span className="text-poruwa-primary uppercase tracking-[0.4em] sm:tracking-[0.5em] text-[10px] sm:text-[11px] font-bold drop-shadow-sm mb-1">
-                    The Celebration
-                  </span>
-                  <span className="text-poruwa-primary font-sinhala tracking-wide text-[12px] sm:text-[13px] font-bold drop-shadow-sm">
-                    සැමරුම
-                  </span>
-                </div>
-              </div>
-
-              <h2 className="text-5xl sm:text-6xl lg:text-7xl font-display text-stone-800 mb-8 leading-[1.1] drop-shadow-sm flex flex-col gap-3">
-                <span className="font-sinhala text-4xl sm:text-5xl lg:text-6xl">පෝරුව සහ <span className="italic font-light text-poruwa-primary">විවාහ මංගල්‍යය</span></span>
-                <span>Poruwa & <span className="italic font-light text-poruwa-primary">Reception</span></span>
-              </h2>
-
-              <div className="flex flex-col gap-4 mb-16 max-w-lg">
-                <p className="text-stone-500/90 font-serif text-lg sm:text-xl leading-relaxed">
-                  A celebration of tradition and love. Join us for a beautiful afternoon ceremony followed by an evening of dining and dancing.
-                </p>
-                <p className="text-stone-500/80 font-sinhala text-base sm:text-lg leading-relaxed">
-                  සාම්ප්‍රදායික සහ ආදරණීය සැමරුමකි. අලංකාර දහවල් පෝරුවේ චාරිත්‍ර සඳහා සහ ඉන්පසු රාත්‍රී භෝජන සංග්‍රහය සඳහා අප සමඟ එක්වන්න.
-                </p>
-              </div>
-
-              <div className="relative space-y-10 ml-10 sm:ml-12 border-l-[1.5px] border-poruwa-primary/40 pl-10 sm:pl-12 py-4">
-
-                {/* Event Location & Date */}
-                <div className="relative group">
-                  <div className="absolute top-1/2 -translate-y-1/2 -left-[64px] sm:-left-[74px] w-12 h-12 bg-white rounded-full border border-poruwa-primary/30 shadow-sm flex items-center justify-center group-hover:border-poruwa-primary transition-all duration-500">
-                    <Calendar className="w-5 h-5 text-poruwa-primary" />
-                  </div>
-                  <div>
-                    <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500 flex items-center gap-3">
-                      <span>Friday, July 31, 2026</span>
-                    </h4>
-                    <h5 className="font-sinhala text-lg text-stone-700/90 mb-2">2026 ජූලි 31 සිකුරාදා</h5>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Seethawaka Regency (Diamond Hall), Awissawella</p>
-                    <p className="text-stone-500/80 font-sinhala text-[12px] mt-1 tracking-wide">සීතාවක රීජන්සි (ඩයමන්ඩ් හෝල්), අවිස්සාවේල්ල</p>
+              <div className="relative z-10">
+                <div className="inline-flex items-center gap-4 mb-6 ml-6 sm:ml-0">
+                  <div className="w-12 sm:w-20 h-[1px] bg-gradient-to-l from-poruwa-primary/60 to-transparent" />
+                  <div className="flex flex-col items-center">
+                    <span className="text-poruwa-primary uppercase tracking-[0.4em] sm:tracking-[0.5em] text-[10px] sm:text-[11px] font-bold drop-shadow-sm mb-1">
+                      The Celebration
+                    </span>
+                    <span className="text-poruwa-primary font-sinhala tracking-wide text-[12px] sm:text-[13px] font-bold drop-shadow-sm">
+                      සැමරුම
+                    </span>
                   </div>
                 </div>
 
-                {/* Timeline Items */}
-                <div className="relative group">
-                  <div className="absolute top-1/2 -translate-y-1/2 -left-[64px] sm:-left-[74px] w-12 h-12 bg-white rounded-full border border-poruwa-primary/30 shadow-sm flex items-center justify-center group-hover:border-poruwa-primary transition-all duration-500">
-                    <Clock className="w-5 h-5 text-poruwa-light" />
-                  </div>
-                  <div>
-                    <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500 flex items-center gap-2">
-                      <span>09:30 AM</span>
-                      <span className="font-sinhala text-base text-stone-600/90 hidden sm:inline">(පෙ.ව. 09:30)</span>
-                    </h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Guest Arrival</p>
-                    <p className="text-stone-500/80 font-sinhala text-[12px] mt-1">අමුත්තන්ගේ පැමිණීම</p>
-                  </div>
+                <h2 className="text-3xl sm:text-6xl lg:text-7xl font-display text-stone-800 mb-4 sm:mb-8 leading-[1.1] drop-shadow-sm flex flex-col gap-1 sm:gap-3 ml-10 sm:ml-0">
+                  <span className="font-sinhala text-2xl sm:text-5xl lg:text-6xl">පෝරුව සහ <span className="italic font-light text-poruwa-primary">විවාහ මංගල්‍යය</span></span>
+                  <span>Poruwa & <span className="italic font-light text-poruwa-primary">Reception</span></span>
+                </h2>
+
+                <div className="flex flex-col gap-4 mb-6 sm:mb-16 max-w-lg">
+                  <p className="text-stone-500/90 font-serif text-sm sm:text-xl leading-relaxed px-12 sm:px-0">
+                    A celebration of tradition and love. Join us for a beautiful afternoon ceremony followed by an evening of dining and dancing.
+                  </p>
                 </div>
 
-                <div className="relative group">
-                  <div className="absolute top-1/2 -translate-y-1/2 -left-[64px] sm:-left-[74px] w-12 h-12 bg-poruwa-primary rounded-full border border-poruwa-primary shadow-md flex items-center justify-center transform group-hover:scale-110 transition-all duration-500">
-                    <Heart className="w-5 h-5 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500 flex items-center gap-2">
-                      <span>10:00 AM</span>
-                      <span className="font-sinhala text-base text-stone-600/90 hidden sm:inline">(පෙ.ව. 10:00)</span>
-                    </h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Poruwa Ceremony</p>
-                    <p className="text-stone-500/80 font-sinhala text-[12px] mt-1">පෝරුවේ චාරිත්‍ර</p>
-                  </div>
-                </div>
+                <div className="relative space-y-4 sm:space-y-10 ml-10 sm:ml-12 border-l-[1.5px] border-poruwa-primary/40 pl-10 sm:pl-12 py-2 sm:py-4">
 
-                <div className="relative group">
-                  <div className="absolute top-1/2 -translate-y-1/2 -left-[64px] sm:-left-[74px] w-12 h-12 bg-white rounded-full border border-poruwa-primary/30 shadow-sm flex items-center justify-center group-hover:border-poruwa-primary transition-all duration-500">
-                    <Clock className="w-5 h-5 text-poruwa-light" />
+                  {/* Event Location & Date */}
+                  <div className="relative group">
+                    <div className="absolute top-1/2 -translate-y-1/2 -left-[64px] sm:-left-[74px] w-12 h-12 bg-white rounded-full border border-poruwa-primary/30 shadow-sm flex items-center justify-center group-hover:border-poruwa-primary transition-all duration-500">
+                      <Calendar className="w-5 h-5 text-poruwa-primary" />
+                    </div>
+                    <div>
+                      <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500 flex items-center gap-3">
+                        <span>Friday, July 31, 2026</span>
+                      </h4>
+                      <h5 className="font-sinhala text-lg text-stone-700/90 mb-2">2026 ජූලි 31 සිකුරාදා</h5>
+                      <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Seethawaka Regency (Diamond Hall), Awissawella</p>
+                      <p className="text-stone-500/80 font-sinhala text-[12px] mt-1 tracking-wide">සීතාවක රීජන්සි (ඩයමන්ඩ් හෝල්), අවිස්සාවේල්ල</p>
+                    </div>
                   </div>
-                  <div>
-                    <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500 flex items-center gap-2">
-                      <span>04:00 PM</span>
-                      <span className="font-sinhala text-base text-stone-600/90 hidden sm:inline">(ප.ව. 04:00)</span>
-                    </h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Conclusion of Celebration</p>
-                    <p className="text-stone-500/80 font-sinhala text-[12px] mt-1">සැමරුමේ අවසානය</p>
-                  </div>
-                </div>
 
+                  {/* Timeline Items */}
+                  <div className="relative group">
+                    <div className="absolute top-1/2 -translate-y-1/2 -left-[64px] sm:-left-[74px] w-12 h-12 bg-white rounded-full border border-poruwa-primary/30 shadow-sm flex items-center justify-center group-hover:border-poruwa-primary transition-all duration-500">
+                      <Clock className="w-5 h-5 text-poruwa-light" />
+                    </div>
+                    <div>
+                      <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500 flex items-center gap-2">
+                        <span>09:30 AM - 04:00 PM</span>
+                        <span className="font-sinhala text-base text-stone-600/90 hidden sm:inline">(පෙ.ව. 09:30 - ප.ව. 04:00)</span>
+                      </h4>
+                      <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Function</p>
+                      <p className="text-stone-500/80 font-sinhala text-[12px] mt-1">මංගල උත්සවය</p>
+                    </div>
+                  </div>
+
+                  <div className="relative group">
+                    <div className="absolute top-1/2 -translate-y-1/2 -left-[64px] sm:-left-[74px] w-12 h-12 bg-poruwa-primary rounded-full border border-poruwa-primary shadow-md flex items-center justify-center transform group-hover:scale-110 transition-all duration-500">
+                      <Heart className="w-5 h-5 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500 flex items-center gap-2">
+                        <span>10:00 AM</span>
+                        <span className="font-sinhala text-base text-stone-600/90 hidden sm:inline">(පෙ.ව. 10:00)</span>
+                      </h4>
+                      <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Poruwa Ceremony</p>
+                      <p className="text-stone-500/80 font-sinhala text-[12px] mt-1">පෝරුවේ චාරිත්‍ර</p>
+                    </div>
+                  </div>
+
+
+                </div>
               </div>
             </motion.div>
           </div>

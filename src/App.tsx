@@ -78,13 +78,27 @@ export default function App() {
 
             <HeroContent />
 
-            <section id="countdown" className="py-16 sm:py-32 relative overflow-hidden bg-brand-dark">
-              <CornerFlowers position="top-left" opacity={0.4} scale={1.2} />
-              <CornerFlowers position="bottom-right" opacity={0.4} scale={1.2} />
-              {/* Premium Background Ambient Glows */}
-              <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
-                <div className="absolute -top-[20%] -right-[10%] w-[50%] h-[70%] bg-white/5 blur-[120px] rounded-full" />
-                <div className="absolute -bottom-[20%] -left-[10%] w-[50%] h-[70%] bg-brand-primary-light/10 blur-[120px] rounded-full" />
+            <section id="countdown" className="py-16 sm:py-32 relative overflow-hidden bg-brand-dark flex flex-col justify-center">
+              {/* Background Image */}
+              <div 
+                className="absolute inset-0 z-0" 
+                style={{ 
+                  backgroundImage: `url('/ChatGPT%20Image%20Jun%2023,%202026,%2010_18_52%20PM.png')`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center'
+                }} 
+              />
+              {/* Dark overlay for text readability */}
+              <div className="absolute inset-0 bg-black/50 z-0 pointer-events-none" />
+
+              <div className="relative z-10">
+                <CornerFlowers position="top-left" opacity={0.4} scale={1.2} />
+                <CornerFlowers position="bottom-right" opacity={0.4} scale={1.2} />
+                {/* Premium Background Ambient Glows */}
+                <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
+                  <div className="absolute -top-[20%] -right-[10%] w-[50%] h-[70%] bg-white/5 blur-[120px] rounded-full" />
+                  <div className="absolute -bottom-[20%] -left-[10%] w-[50%] h-[70%] bg-brand-primary-light/10 blur-[120px] rounded-full" />
+                </div>
               </div>
               
               <div className="relative z-10 max-w-5xl mx-auto px-6 flex flex-col items-center text-center">
@@ -106,11 +120,21 @@ export default function App() {
               </div>
             </section>
 
-            <section id="couple" className="py-16 sm:py-32 bg-gradient-to-b from-brand-ivory to-brand-champagne relative overflow-hidden">
-              <CornerFlowers position="top-right" opacity={0.6} scale={1.5} />
-              <CornerFlowers position="bottom-left" opacity={0.6} scale={1.5} />
-              <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-[0.03] pointer-events-none" />
-              <CoupleDetails />
+            <section id="couple" className="py-16 sm:py-32 relative overflow-hidden bg-brand-ivory flex flex-col justify-center">
+              {/* Background Image */}
+              <div 
+                className="absolute inset-0 z-0" 
+                style={{ 
+                  backgroundImage: `url('/Gemini_Generated_Image_l8wff7l8wff7l8wf.png')`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center'
+                }} 
+              />
+              <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-[0.03] pointer-events-none z-0" />
+              
+              <div className="relative z-10 w-full">
+                <CoupleDetails />
+              </div>
             </section>
 
             <section id="poruwa">
@@ -121,16 +145,38 @@ export default function App() {
               <Gallery />
             </section>
 
-
-
-            <section id="addresses" className="py-16 sm:py-32 bg-brand-ivory">
-              <AddressesSection />
+            <section id="addresses" className="py-16 sm:py-32 relative overflow-hidden bg-brand-ivory">
+              {/* Background Image */}
+              <div 
+                className="absolute inset-0 z-0" 
+                style={{ 
+                  backgroundImage: `url('/Gemini_Generated_Image_l8wff7l8wff7l8wf.png')`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center'
+                }} 
+              />
+              <div className="absolute inset-0 bg-white/70 z-0 pointer-events-none" />
+              
+              <div className="relative z-10">
+                <AddressesSection />
+              </div>
             </section>
 
-            <section id="rsvp" className="py-16 sm:py-32 bg-brand-ivory relative overflow-hidden">
-              <CornerFlowers position="top-right" opacity={0.6} scale={1.6} />
-              <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/natural-paper.png')] opacity-20 pointer-events-none" />
-              <RSVPForm />
+            <section id="rsvp" className="py-16 sm:py-32 relative overflow-hidden bg-brand-ivory">
+              {/* Background Image */}
+              <div 
+                className="absolute inset-0 z-0" 
+                style={{ 
+                  backgroundImage: `url('/ChatGPT%20Image%20Jun%2020,%202026,%2003_42_23%20AM.png')`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center'
+                }} 
+              />
+              <div className="absolute inset-0 bg-white/80 z-0 pointer-events-none" />
+              
+              <div className="relative z-10">
+                <RSVPForm />
+              </div>
             </section>
 
             <Footer />

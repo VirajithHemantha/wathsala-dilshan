@@ -22,18 +22,39 @@ export const CoupleDetails: React.FC = () => {
           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
           className="text-center w-full max-w-xl mx-auto"
         >
-          <div className="mb-4 flex flex-col items-center">
-            <span className="text-brand-primary uppercase tracking-[0.4em] text-xs sm:text-sm font-bold mb-4 block flex flex-col items-center gap-1">
-              <span>The Groom</span>
-              <span className="font-sinhala tracking-wide text-[14px]">මනාලයා</span>
+          <div className="flex flex-col items-center">
+            <span className="text-brand-primary uppercase tracking-[0.5em] text-sm sm:text-base font-bold mb-3">
+              The Groom
             </span>
-            <h3 className="text-6xl sm:text-7xl lg:text-8xl font-display text-stone-800 drop-shadow-sm mb-3 flex flex-col items-center gap-2">
-              <span className="font-sinhala text-4xl sm:text-5xl font-normal">දිල්ෂාන්</span>
-              <span>Dilshan</span>
+
+            <div className="flex items-center justify-center w-full max-w-[240px] mb-4 opacity-70">
+              <div className="w-1 h-1 rounded-full bg-brand-primary mr-2"></div>
+              <div className="h-[1px] flex-1 bg-brand-primary"></div>
+              <div className="w-2 h-2 rotate-45 bg-brand-primary mx-2"></div>
+              <div className="h-[1px] flex-1 bg-brand-primary"></div>
+              <div className="w-1 h-1 rounded-full bg-brand-primary ml-2"></div>
+            </div>
+
+            <span className="text-brand-primary font-sinhala tracking-wider text-xl sm:text-2xl mb-4">
+              මනාලයා
+            </span>
+
+            <h3 className="flex flex-col items-center gap-1 mb-6">
+              <span className="text-stone-500 font-sinhala text-4xl sm:text-5xl font-normal mb-2">දිල්ෂාන්</span>
+              <span className="text-7xl sm:text-8xl lg:text-9xl font-display text-brand-primary drop-shadow-sm leading-none">Dilshan</span>
             </h3>
-            <div className="flex flex-col items-center gap-2 mt-2">
-              <p className="text-stone-500/90 font-serif italic text-lg sm:text-xl">Son of Mr & Mrs Jayarathna</p>
-              <p className="text-stone-500/90 font-sinhala text-base">ජයරත්න යුවළගේ පුත්</p>
+
+            <div className="flex items-center justify-center w-full max-w-[240px] mb-6 opacity-70">
+              <div className="w-1 h-1 rounded-full bg-brand-primary mr-2"></div>
+              <div className="h-[1px] flex-1 bg-brand-primary"></div>
+              <div className="w-2 h-2 rotate-45 bg-brand-primary mx-2"></div>
+              <div className="h-[1px] flex-1 bg-brand-primary"></div>
+              <div className="w-1 h-1 rounded-full bg-brand-primary ml-2"></div>
+            </div>
+
+            <div className="flex flex-col items-center gap-2">
+              <p className="text-stone-600 font-serif italic text-xl sm:text-2xl">Son of Mr & Mrs Jayarathna</p>
+              <p className="text-stone-500 font-sinhala text-lg sm:text-xl">ජයරත්න යුවළගේ පුත්</p>
             </div>
           </div>
         </motion.div>
@@ -46,18 +67,39 @@ export const CoupleDetails: React.FC = () => {
           transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
           className="text-center w-full max-w-xl mx-auto"
         >
-          <div className="mb-4 flex flex-col items-center">
-            <span className="text-brand-primary uppercase tracking-[0.4em] text-xs sm:text-sm font-bold mb-4 block flex flex-col items-center gap-1">
-              <span>The Bride</span>
-              <span className="font-sinhala tracking-wide text-[14px]">මනාලිය</span>
+          <div className="flex flex-col items-center">
+            <span className="text-brand-primary uppercase tracking-[0.5em] text-sm sm:text-base font-bold mb-3">
+              The Bride
             </span>
-            <h3 className="text-6xl sm:text-7xl lg:text-8xl font-display text-stone-800 drop-shadow-sm mb-3 flex flex-col items-center gap-2">
-              <span className="font-sinhala text-4xl sm:text-5xl font-normal">වත්සලා</span>
-              <span>Wathsala</span>
+
+            <div className="flex items-center justify-center w-full max-w-[240px] mb-4 opacity-70">
+              <div className="w-1 h-1 rounded-full bg-brand-primary mr-2"></div>
+              <div className="h-[1px] flex-1 bg-brand-primary"></div>
+              <div className="w-2 h-2 rotate-45 bg-brand-primary mx-2"></div>
+              <div className="h-[1px] flex-1 bg-brand-primary"></div>
+              <div className="w-1 h-1 rounded-full bg-brand-primary ml-2"></div>
+            </div>
+
+            <span className="text-brand-primary font-sinhala tracking-wider text-xl sm:text-2xl mb-4">
+              මනාලිය
+            </span>
+
+            <h3 className="flex flex-col items-center gap-1 mb-6">
+              <span className="text-stone-500 font-sinhala text-4xl sm:text-5xl font-normal mb-2">වත්සලා</span>
+              <span className="text-7xl sm:text-8xl lg:text-9xl font-display text-brand-primary drop-shadow-sm leading-none">Wathsala</span>
             </h3>
-            <div className="flex flex-col items-center gap-2 mt-2">
-              <p className="text-stone-500/90 font-serif italic text-lg sm:text-xl">Daughter of Mr & Mrs Kelum</p>
-              <p className="text-stone-500/90 font-sinhala text-base">කැළුම් යුවළගේ දියණිය</p>
+
+            <div className="flex items-center justify-center w-full max-w-[240px] mb-6 opacity-70">
+              <div className="w-1 h-1 rounded-full bg-brand-primary mr-2"></div>
+              <div className="h-[1px] flex-1 bg-brand-primary"></div>
+              <div className="w-2 h-2 rotate-45 bg-brand-primary mx-2"></div>
+              <div className="h-[1px] flex-1 bg-brand-primary"></div>
+              <div className="w-1 h-1 rounded-full bg-brand-primary ml-2"></div>
+            </div>
+
+            <div className="flex flex-col items-center gap-2">
+              <p className="text-stone-600 font-serif italic text-xl sm:text-2xl">Daughter of Mr & Mrs Kelum</p>
+              <p className="text-stone-500 font-sinhala text-lg sm:text-xl">කැළුම් යුවළගේ දියණිය</p>
             </div>
           </div>
         </motion.div>

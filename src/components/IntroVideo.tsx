@@ -66,13 +66,15 @@ export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5, delay: 0.5 }}
-          className="absolute inset-0 z-30 flex flex-col items-center justify-start pt-24 sm:pt-32 text-center pointer-events-none"
+          className="absolute inset-0 z-30 flex flex-col items-end sm:items-center justify-start pt-24 sm:pt-32 pr-6 sm:pr-0 text-right sm:text-center pointer-events-none"
         >
-          <span className="text-[#D4AF37] uppercase tracking-[0.4em] sm:tracking-[0.6em] text-xs sm:text-sm font-medium mb-4 sm:mb-6 drop-shadow-md">
+          <span className="text-black uppercase tracking-[0.4em] sm:tracking-[0.6em] text-xs sm:text-sm font-medium mb-4 sm:mb-6 drop-shadow-md">
             Wedding Invitation
           </span>
-          <h1 className="text-5xl sm:text-7xl lg:text-8xl font-display text-brand-primary-light drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] font-bold">
-            Dilshan <span className="text-[#D4AF37] mx-2 sm:mx-4 italic">&</span> Wathsala
+          <h1 className="text-5xl sm:text-7xl lg:text-8xl font-display text-brand-primary-light drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] font-bold leading-tight">
+            <span className="block">Dilshan</span>
+            <span className="text-black italic block text-4xl sm:text-6xl my-1 sm:my-2">&</span>
+            <span className="block">Wathsala</span>
           </h1>
         </motion.div>
       )}
