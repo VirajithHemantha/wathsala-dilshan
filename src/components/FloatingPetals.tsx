@@ -64,7 +64,7 @@ export const FloatingPetals: React.FC = () => {
             className="drop-shadow-sm"
             style={{ filter: 'brightness(1.1) saturate(1.2) drop-shadow(0 0 10px rgba(153, 27, 27, 0.5))' }}
           >
-            <path d="M12,2C12,2 10,6 10,10C10,14 12,22 12,22C12,22 14,14 14,10C14,6 12,2 12,2Z" />
+            <path d="M12,2 C4,4 2,12 8,18 C9,19.5 12,22 12,22 C12,22 16,19 18,16 C22,10 18,4 12,2 Z" />
           </svg>
         </motion.div>
       ))}
