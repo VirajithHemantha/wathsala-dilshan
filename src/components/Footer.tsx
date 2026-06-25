@@ -44,14 +44,17 @@ export const Footer: React.FC = () => {
 
         <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-brand-primary/50 to-transparent mb-12" />
 
-
-
         <div className="flex flex-col items-center justify-center gap-4">
           <div className="text-[10px] sm:text-xs text-stone-400 font-bold uppercase tracking-[0.3em]">
             With all our love 💕
           </div>
-          <div className="text-[9px] text-stone-300 tracking-widest uppercase font-medium">
-            © 2026 Dilshan & Wathsala Wedding
+          <div className="flex flex-col items-center gap-2">
+            <div className="text-[9px] text-stone-300 tracking-widest uppercase font-medium">
+              © 2026 Dilshan & Wathsala Wedding
+            </div>
+            <div className="text-[9px] text-stone-300 tracking-widest uppercase font-medium">
+              Developed by InviteMint
+            </div>
           </div>
         </div>
       </div>

@@ -3,10 +3,12 @@ import { motion } from 'motion/react';
 
 interface IntroVideoProps {
   onComplete: () => void;
+  onStart?: () => void;
 }
 
-export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
+export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete, onStart }) => {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+  const [hasStarted, setHasStarted] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
 
   const videos = [
@@ -23,14 +25,19 @@ export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
   };
 
   useEffect(() => {
-    if (videoRef.current) {
+    if (hasStarted && videoRef.current) {
       videoRef.current.play().catch(err => {
         console.error("Video autoplay failed:", err);
         // Do not immediately skip here on the first try, let it be. 
         // Sometimes play() fails initially but works on interaction.
       });
     }
-  }, [currentVideoIndex]);
+  }, [currentVideoIndex, hasStarted]);
+
+  const handleStart = () => {
+    setHasStarted(true);
+    if (onStart) onStart();
+  };
 
   return (
     <div className="fixed inset-0 z-[200] bg-black flex items-center justify-center overflow-hidden">
@@ -45,9 +52,8 @@ export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
         <video
           ref={videoRef}
           src={videos[currentVideoIndex]}
-          className="w-full h-full object-cover"
+          className={`w-full h-full object-cover transition-all duration-1000 ${!hasStarted ? 'blur-xl scale-110' : 'blur-0 scale-100'}`}
           playsInline
-          autoPlay
           muted
           preload="auto"
           onEnded={handleVideoEnded}
@@ -59,6 +65,31 @@ export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
 
         <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/60 via-transparent to-black/40" />
       </motion.div>
+
+      {/* Landing Overlay */}
+      {!hasStarted && (
+        <div className="absolute inset-0 z-50 flex flex-col items-center justify-center bg-black/40 backdrop-blur-sm">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="flex flex-col items-center text-center px-6"
+          >
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-display text-white mb-8 drop-shadow-xl font-bold">
+              Dilshan <span className="text-brand-primary-light italic mx-2">&</span> Wathsala
+            </h1>
+            <p className="text-white/80 font-serif mb-12 text-lg sm:text-xl max-w-md">
+              We invite you to celebrate our special day with us.
+            </p>
+            <button
+              onClick={handleStart}
+              className="px-10 py-5 bg-white/20 hover:bg-white/30 backdrop-blur-md border border-white/50 text-white rounded-full tracking-[0.2em] uppercase text-xs sm:text-sm transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_10px_30px_rgba(0,0,0,0.3)] font-bold flex items-center gap-3"
+            >
+              View Invitation
+            </button>
+          </motion.div>
+        </div>
+      )}
 
       {/* Text Overlay for the second video */}
       {currentVideoIndex === 1 && (

@@ -20,9 +20,9 @@ export const HeroContent: React.FC = () => {
         <img
           src="/ChatGPT Image Jun 20, 2026, 03_42_23 AM.png"
           alt="Wedding Background"
-          className="absolute inset-0 w-full h-full object-cover opacity-30"
+          className="absolute inset-0 w-full h-full object-cover opacity-90"
         />
-        <div className="absolute inset-0 bg-white/30" />
+        <div className="absolute inset-0 bg-white/20" />
         <div className="absolute inset-0 bg-gradient-to-br from-brand-primary/10 via-transparent to-brand-primary/5" />
         <div className="absolute inset-0 bg-black/5 mix-blend-multiply" />
       </div>
@@ -53,9 +53,6 @@ export const HeroContent: React.FC = () => {
 
           <div className="relative mb-12 w-full flex justify-center text-center">
             <h1 className="relative text-6xl sm:text-8xl lg:text-9xl font-display text-stone-900 leading-tight drop-shadow-xl font-bold flex flex-col items-center">
-              <span className="font-sinhala text-4xl sm:text-6xl lg:text-7xl mb-4 text-stone-900 tracking-wide font-bold">
-                දිල්ෂාන් සහ වත්සලා
-              </span>
               <div>
                 Dilshan <br className="sm:hidden" />
                 <span className="text-brand-primary italic font-semibold mx-4 sm:mx-8 text-5xl sm:text-7xl lg:text-8xl inline-block -translate-y-2 sm:-translate-y-4">&</span>

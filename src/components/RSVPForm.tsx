@@ -81,8 +81,8 @@ export const RSVPForm: React.FC = () => {
           </p>
           <div className="mb-8">
             <p className="text-stone-500/90 font-serif italic text-base">For any inquiries, please contact:</p>
-            <p className="text-brand-primary font-sans font-bold text-lg tracking-wider mt-1">Mangalika: 071 446 0054</p>
-            <p className="text-brand-primary font-sans font-bold text-lg tracking-wider mt-1">Thanuja: 071 332 1816</p>
+            <p className="text-brand-primary font-sans font-bold text-xs sm:text-lg tracking-wider mt-1">Mangalika: 071 446 0054</p>
+            <p className="text-brand-primary font-sans font-bold text-xs sm:text-lg tracking-wider mt-1">Thanuja: 071 332 1816</p>
           </div>
           <div className="w-12 h-[1px] bg-brand-primary/50 mx-auto lg:mx-0" />
         </div>

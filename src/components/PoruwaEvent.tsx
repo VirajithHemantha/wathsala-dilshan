@@ -4,7 +4,7 @@ import { Clock, Calendar, Heart, Sparkles, MapPin } from 'lucide-react';
 
 export const PoruwaEvent: React.FC = () => {
   return (
-    <div className="pt-0 pb-16 sm:py-24 bg-poruwa-bg relative overflow-hidden">
+    <div className="pt-0 pb-16 sm:py-24 bg-transparent relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 relative">
         <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[70%] h-[70%] bg-gradient-radial from-poruwa-light/30 to-transparent rounded-full blur-[100px] pointer-events-none" />
 
@@ -53,8 +53,8 @@ export const PoruwaEvent: React.FC = () => {
                         <span>Friday, July 31, 2026</span>
                       </h4>
                       <h5 className="font-sinhala text-lg text-stone-700/90 mb-2">2026 ජූලි 31 සිකුරාදා</h5>
-                      <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Seethawaka Regency (Diamond Hall), Awissawella</p>
-                      <p className="text-stone-500/80 font-sinhala text-[12px] mt-1 tracking-wide">සීතාවක රීජන්සි (ඩයමන්ඩ් හෝල්), අවිස්සාවේල්ල</p>
+                      <p className="text-stone-700/90 text-xs sm:text-sm uppercase tracking-[0.2em] font-bold">Seethawaka Regency (Diamond Hall), Awissawella</p>
+                      <p className="text-stone-700/90 font-sinhala text-sm sm:text-base mt-1 tracking-wide">සීතාවක රීජන්සි (ඩයමන්ඩ් හෝල්), අවිස්සාවේල්ල</p>
                     </div>
                   </div>
 
@@ -68,8 +68,8 @@ export const PoruwaEvent: React.FC = () => {
                         <span>09:30 AM - 04:00 PM</span>
                         <span className="font-sinhala text-base text-stone-600/90 hidden sm:inline">(පෙ.ව. 09:30 - ප.ව. 04:00)</span>
                       </h4>
-                      <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Function</p>
-                      <p className="text-stone-500/80 font-sinhala text-[12px] mt-1">මංගල උත්සවය</p>
+                      <p className="text-stone-700/90 text-xs sm:text-sm uppercase tracking-[0.2em] font-bold">Function</p>
+                      <p className="text-stone-700/90 font-sinhala text-sm sm:text-base mt-1">මංගල උත්සවය</p>
                     </div>
                   </div>
 
@@ -82,8 +82,8 @@ export const PoruwaEvent: React.FC = () => {
                         <span>10:00 AM</span>
                         <span className="font-sinhala text-base text-stone-600/90 hidden sm:inline">(පෙ.ව. 10:00)</span>
                       </h4>
-                      <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Poruwa Ceremony</p>
-                      <p className="text-stone-500/80 font-sinhala text-[12px] mt-1">පෝරුවේ චාරිත්‍ර</p>
+                      <p className="text-stone-700/90 text-xs sm:text-sm uppercase tracking-[0.2em] font-bold">Poruwa Ceremony</p>
+                      <p className="text-stone-700/90 font-sinhala text-sm sm:text-base mt-1">පෝරුවේ චාරිත්‍ර</p>
                     </div>
                   </div>
 

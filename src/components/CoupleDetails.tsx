@@ -40,8 +40,8 @@ export const CoupleDetails: React.FC = () => {
             </span>
 
             <h3 className="flex flex-col items-center gap-1 mb-6">
-              <span className="text-stone-500 font-sinhala text-4xl sm:text-5xl font-normal mb-2">දිල්ෂාන්</span>
-              <span className="text-7xl sm:text-8xl lg:text-9xl font-display text-brand-primary drop-shadow-sm leading-none">Dilshan</span>
+              <span className="text-4xl sm:text-8xl lg:text-9xl font-display text-brand-primary drop-shadow-sm leading-none mb-2">Dilshan</span>
+              <span className="text-stone-500 font-sinhala text-2xl sm:text-3xl font-normal">දිල්ෂාන්</span>
             </h3>
 
             <div className="flex items-center justify-center w-full max-w-[240px] mb-6 opacity-70">
@@ -85,8 +85,8 @@ export const CoupleDetails: React.FC = () => {
             </span>
 
             <h3 className="flex flex-col items-center gap-1 mb-6">
-              <span className="text-stone-500 font-sinhala text-4xl sm:text-5xl font-normal mb-2">වත්සලා</span>
-              <span className="text-7xl sm:text-8xl lg:text-9xl font-display text-brand-primary drop-shadow-sm leading-none">Wathsala</span>
+              <span className="text-4xl sm:text-8xl lg:text-9xl font-display text-brand-primary drop-shadow-sm leading-none mb-2">Wathsala</span>
+              <span className="text-stone-500 font-sinhala text-2xl sm:text-3xl font-normal">වත්සලා</span>
             </h3>
 
             <div className="flex items-center justify-center w-full max-w-[240px] mb-6 opacity-70">

@@ -56,7 +56,7 @@ export default function App() {
 
       <AnimatePresence mode="wait">
         {showIntro ? (
-          <IntroVideo key="intro" onComplete={() => { setShowIntro(false); setShowMain(true); startMusic(); }} />
+          <IntroVideo key="intro" onStart={startMusic} onComplete={() => { setShowIntro(false); setShowMain(true); }} />
         ) : (
           <motion.main
             key="main"
@@ -137,12 +137,21 @@ export default function App() {
               </div>
             </section>
 
-            <section id="poruwa">
-              <PoruwaEvent />
-            </section>
-
-            <section id="gallery">
-              <Gallery />
+            <section id="poruwa" className="relative overflow-hidden bg-brand-ivory">
+              {/* Background Image */}
+              <div 
+                className="absolute inset-0 z-0" 
+                style={{ 
+                  backgroundImage: `url('/ChatGPT%20Image%20Jun%2020,%202026,%2003_42_23%20AM.png')`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center'
+                }} 
+              />
+              <div className="absolute inset-0 bg-white/80 z-0 pointer-events-none" />
+              
+              <div className="relative z-10">
+                <PoruwaEvent />
+              </div>
             </section>
 
             <section id="addresses" className="py-16 sm:py-32 relative overflow-hidden bg-brand-ivory">
@@ -176,6 +185,23 @@ export default function App() {
               
               <div className="relative z-10">
                 <RSVPForm />
+              </div>
+            </section>
+
+            <section id="gallery" className="relative overflow-hidden bg-brand-ivory">
+              {/* Background Image */}
+              <div 
+                className="absolute inset-0 z-0" 
+                style={{ 
+                  backgroundImage: `url('/ChatGPT%20Image%20Jun%2020,%202026,%2003_42_23%20AM.png')`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center'
+                }} 
+              />
+              <div className="absolute inset-0 bg-white/80 z-0 pointer-events-none" />
+              
+              <div className="relative z-10">
+                <Gallery />
               </div>
             </section>
 
