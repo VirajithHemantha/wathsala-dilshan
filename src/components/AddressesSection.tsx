@@ -32,9 +32,9 @@ export const AddressesSection: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-2xl font-serif text-stone-800 mb-1">Seethawaka Regency</p>
-                  <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-stone-400 leading-relaxed">(Diamond Hall), Awissawella</p>
-                  <p className="text-stone-500/90 font-sinhala text-sm sm:text-base tracking-wide mb-6 mt-1">සීතාවක රීජන්සි (ඩයමන්ඩ් හෝල්), අවිස්සාවේල්ල</p>
-                  <p className="text-stone-500/90 italic font-serif text-lg leading-relaxed max-w-sm mb-10 pl-4 border-l-[1.5px] border-brand-champagne/40">
+                  <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-black leading-relaxed">(Diamond Hall), Awissawella</p>
+                  <p className="text-black font-sinhala font-medium text-sm sm:text-base tracking-wide mb-6 mt-1">සීතාවක රීජන්සි (ඩයමන්ඩ් හෝල්), අවිස්සාවේල්ල</p>
+                  <p className="text-stone-800/90 italic font-serif text-lg leading-relaxed max-w-sm mb-10 pl-4 border-l-[1.5px] border-brand-champagne/40">
                     "A serene and elegant setting where we will begin our new chapter together."
                   </p>
                   <a href="https://maps.app.goo.gl/hjooGiuAzNGGos427" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 bg-stone-800 text-brand-champagne px-8 py-4 rounded-full font-sans tracking-[0.2em] text-xs uppercase hover:bg-stone-900 hover:shadow-[0_10px_20px_rgba(0,0,0,0.2)] transition-all duration-300 active:scale-95 group/btn">
@@ -67,7 +67,7 @@ export const AddressesSection: React.FC = () => {
 
             <div className="absolute top-6 right-6 bg-white/90 backdrop-blur-md px-4 py-2 rounded-full border border-brand-champagne/30 shadow-lg flex items-center gap-2 pointer-events-none z-30">
               <Map className="w-4 h-4 text-brand-primary animate-pulse" aria-hidden="true" />
-              <span className="text-[9px] uppercase tracking-widest font-bold text-stone-600">Live Map</span>
+              <span className="text-[9px] uppercase tracking-widest font-bold text-stone-900">Live Map</span>
             </div>
           </div>
         </div>

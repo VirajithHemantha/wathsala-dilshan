@@ -99,7 +99,7 @@ export const Location: React.FC = () => {
             {/* Decorative Location Pin Overlay */}
             <div className="absolute top-6 right-6 bg-white/90 backdrop-blur-md px-4 py-2 rounded-full border border-brand-gold/30 shadow-lg flex items-center gap-2 pointer-events-none z-30">
               <Map className="w-4 h-4 text-brand-gold-deep animate-pulse" />
-              <span className="text-[9px] uppercase tracking-widest font-bold text-stone-600">Live Map</span>
+              <span className="text-[9px] uppercase tracking-widest font-bold text-stone-900">Live Map</span>
             </div>
           </div>
         </motion.div>

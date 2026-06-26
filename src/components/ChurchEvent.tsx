@@ -27,7 +27,7 @@ export const ChurchEvent: React.FC = () => {
                 Church <span className="italic font-light text-church-primary">Function</span>
               </h2>
 
-              <p className="text-stone-500/90 font-serif text-lg sm:text-xl leading-relaxed mb-16 max-w-lg">
+              <p className="text-stone-800/90 font-serif text-lg sm:text-xl leading-relaxed mb-16 max-w-lg">
                 A blessing under sacred arches. We joyfully invite you to join us as we say our vows and begin our journey together.
               </p>
 
@@ -40,7 +40,7 @@ export const ChurchEvent: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-1 group-hover:text-church-primary transition-colors duration-500">Thursday, June 25</h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Lady of Mount Carmel's Church Kadawalagedara</p>
+                    <p className="text-stone-800/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Lady of Mount Carmel's Church Kadawalagedara</p>
                   </div>
                 </div>
 
@@ -51,7 +51,7 @@ export const ChurchEvent: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-church-primary transition-colors duration-500">02:30 PM</h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Guest Arrival</p>
+                    <p className="text-stone-800/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Guest Arrival</p>
                   </div>
                 </div>
 
@@ -61,7 +61,7 @@ export const ChurchEvent: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-church-primary transition-colors duration-500">03:00 PM</h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Holy Matrimony Begins</p>
+                    <p className="text-stone-800/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Holy Matrimony Begins</p>
                   </div>
                 </div>
 
@@ -71,7 +71,7 @@ export const ChurchEvent: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-church-primary transition-colors duration-500">04:00 PM</h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Blessings & Photographs</p>
+                    <p className="text-stone-800/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Blessings & Photographs</p>
                   </div>
                 </div>
 
@@ -110,7 +110,7 @@ export const ChurchEvent: React.FC = () => {
                 <div className="absolute inset-x-8 -top-px h-[2px] bg-gradient-to-r from-transparent via-church-primary/60 to-transparent" />
                 <Sparkles className="w-5 h-5 text-church-primary mb-3" />
                 <h4 className="font-display text-xl sm:text-2xl text-stone-800 mb-2">Sacred Vows</h4>
-                <p className="text-stone-500/90 font-serif text-[11px] sm:text-[14px] leading-snug">
+                <p className="text-stone-800/90 font-serif text-[11px] sm:text-[14px] leading-snug">
                   Witness the beginning of our forever in the presence of God and our loved ones.
                 </p>
               </motion.div>

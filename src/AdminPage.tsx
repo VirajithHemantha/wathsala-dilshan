@@ -59,7 +59,7 @@ export const AdminPage: React.FC = () => {
               Link Generator
             </h1>
           </div>
-          <p className="text-stone-500/90 font-serif text-lg">
+          <p className="text-stone-800/90 font-serif text-lg">
             Create personalized invitation links for your guests.
           </p>
         </div>
@@ -67,7 +67,7 @@ export const AdminPage: React.FC = () => {
         <div className="space-y-6">
           <div className="flex flex-col sm:flex-row gap-6">
             <div className="w-full sm:w-1/3">
-              <label className="block text-[10px] uppercase tracking-[0.2em] font-bold text-stone-500 mb-3 ml-2">Prefix</label>
+              <label className="block text-[10px] uppercase tracking-[0.2em] font-bold text-stone-800 mb-3 ml-2">Prefix</label>
               <select
                 className="w-full bg-white/80 px-6 py-4 rounded-full border border-stone-200/60 focus:ring-2 focus:ring-brand-primary/30 focus:border-brand-primary-light/40 outline-none transition-all duration-300 appearance-none font-serif text-lg shadow-inner text-stone-700 cursor-pointer"
                 value={prefix}
@@ -80,7 +80,7 @@ export const AdminPage: React.FC = () => {
             </div>
             
             <div className="w-full sm:w-2/3">
-              <label className="block text-[10px] uppercase tracking-[0.2em] font-bold text-stone-500 mb-3 ml-2">Guest Name</label>
+              <label className="block text-[10px] uppercase tracking-[0.2em] font-bold text-stone-800 mb-3 ml-2">Guest Name</label>
               <input
                 type="text"
                 placeholder="e.g. John Doe"
@@ -111,7 +111,7 @@ export const AdminPage: React.FC = () => {
               <label className="block text-[10px] uppercase tracking-[0.2em] font-bold text-brand-primary mb-3 ml-2">Your Unique Link</label>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <div className="w-full bg-white/90 px-6 py-4 rounded-full border border-brand-primary/20 font-mono text-sm text-stone-600 truncate overflow-x-auto shadow-inner flex-grow">
+                <div className="w-full bg-white/90 px-6 py-4 rounded-full border border-brand-primary/20 font-mono text-sm text-stone-900 truncate overflow-x-auto shadow-inner flex-grow">
                   {generatedLink}
                 </div>
                 
@@ -136,7 +136,7 @@ export const AdminPage: React.FC = () => {
               </div>
               
               <div className="mt-4 px-2">
-                <p className="text-xs text-stone-500 italic font-serif">
+                <p className="text-xs text-stone-800 italic font-serif">
                   Preview text: <span className="text-stone-700 font-medium">We cordially invite {prefix} {guestName}</span>
                 </p>
               </div>

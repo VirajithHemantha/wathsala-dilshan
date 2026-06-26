@@ -27,7 +27,7 @@ export const HomecomingEvent: React.FC = () => {
                 Wedding <span className="italic font-light text-homecoming-primary">Dinner</span>
               </h2>
 
-              <p className="text-stone-500/90 font-serif text-lg sm:text-xl leading-relaxed mb-16 max-w-lg">
+              <p className="text-stone-800/90 font-serif text-lg sm:text-xl leading-relaxed mb-16 max-w-lg">
                 A joyous evening of welcoming and feasting. Join us to toast our future surrounded by warmth, fine wine, and good company.
               </p>
 
@@ -40,7 +40,7 @@ export const HomecomingEvent: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-1 group-hover:text-homecoming-primary transition-colors duration-500">Thursday, June 25</h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Royal Dawn Banquet Hall (Srimali) Hotel</p>
+                    <p className="text-stone-800/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Royal Dawn Banquet Hall (Srimali) Hotel</p>
                   </div>
                 </div>
 
@@ -51,7 +51,7 @@ export const HomecomingEvent: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-homecoming-primary transition-colors duration-500">06:30 PM</h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Welcome & Drinks</p>
+                    <p className="text-stone-800/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Welcome & Drinks</p>
                   </div>
                 </div>
 
@@ -61,7 +61,7 @@ export const HomecomingEvent: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-homecoming-primary transition-colors duration-500">07:00 PM</h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Dinner is Served</p>
+                    <p className="text-stone-800/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Dinner is Served</p>
                   </div>
                 </div>
 
@@ -71,7 +71,7 @@ export const HomecomingEvent: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-homecoming-primary transition-colors duration-500">08:30 PM</h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Toasts & Music</p>
+                    <p className="text-stone-800/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Toasts & Music</p>
                   </div>
                 </div>
 
@@ -81,7 +81,7 @@ export const HomecomingEvent: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-homecoming-primary transition-colors duration-500">12:00 AM</h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Farewell</p>
+                    <p className="text-stone-800/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Farewell</p>
                   </div>
                 </div>
 
@@ -119,7 +119,7 @@ export const HomecomingEvent: React.FC = () => {
                 <div className="absolute inset-x-8 -top-px h-[2px] bg-gradient-to-r from-transparent via-homecoming-primary/60 to-transparent" />
                 <Sparkles className="w-5 h-5 text-homecoming-primary mb-3" />
                 <h4 className="font-display text-xl sm:text-2xl text-stone-800 mb-2">A New Beginning</h4>
-                <p className="text-stone-500/90 font-serif text-[11px] sm:text-[14px] leading-snug">
+                <p className="text-stone-800/90 font-serif text-[11px] sm:text-[14px] leading-snug">
                   Toasting to our shared future, beautiful memories, and endless love.
                 </p>
               </motion.div>

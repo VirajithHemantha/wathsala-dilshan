@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
           <svg viewBox="0 0 100 100" className="absolute inset-0 w-full h-full animate-[spin_30s_linear_infinite] opacity-80 group-hover:opacity-100 transition-opacity duration-700">
             <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="transparent" />
             <text>
-              <textPath href="#circlePath" className="text-[8px] uppercase tracking-[0.15em] fill-brand-primary font-sans font-bold">
+              <textPath href="#circlePath" className="text-[7.5px] uppercase tracking-[0.1em] fill-brand-primary font-sans font-bold">
                 DILSHAN & WATHSALA • FOREVER AND ALWAYS •
               </textPath>
             </text>
@@ -38,7 +38,7 @@ export const Footer: React.FC = () => {
         </div>
 
         <h2 className="text-4xl sm:text-5xl font-display text-stone-800 mb-6 tracking-tight drop-shadow-sm">Dilshan & Wathsala</h2>
-        <p className="text-stone-500 font-serif italic text-lg sm:text-xl leading-relaxed max-w-2xl mx-auto mb-16">
+        <p className="text-stone-800 font-serif italic text-lg sm:text-xl leading-relaxed max-w-2xl mx-auto mb-16">
           "A journey of a thousand miles begins with a single step, and we're so incredibly happy to take it together."
         </p>
 

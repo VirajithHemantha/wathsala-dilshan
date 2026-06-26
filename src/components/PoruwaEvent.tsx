@@ -30,13 +30,13 @@ export const PoruwaEvent: React.FC = () => {
                   </div>
                 </div>
 
-                <h2 className="text-3xl sm:text-6xl lg:text-7xl font-display text-stone-800 mb-4 sm:mb-8 leading-[1.1] drop-shadow-sm flex flex-col gap-1 sm:gap-3 ml-10 sm:ml-0">
-                  <span className="font-sinhala text-2xl sm:text-5xl lg:text-6xl">පෝරුව සහ <span className="italic font-light text-poruwa-primary">විවාහ මංගල්‍යය</span></span>
-                  <span>Poruwa & <span className="italic font-light text-poruwa-primary">Reception</span></span>
+                <h2 className="text-3xl sm:text-6xl lg:text-7xl font-display font-bold text-black mb-4 sm:mb-8 leading-[1.1] drop-shadow-sm flex flex-col gap-1 sm:gap-3 ml-10 sm:ml-0">
+                  <span className="font-sinhala font-bold text-2xl sm:text-5xl lg:text-6xl">පෝරුව සහ <span className="italic font-bold text-poruwa-primary">විවාහ මංගල්‍යය</span></span>
+                  <span className="font-bold">Poruwa & <span className="italic font-bold text-poruwa-primary">Reception</span></span>
                 </h2>
 
                 <div className="flex flex-col gap-4 mb-6 sm:mb-16 max-w-lg">
-                  <p className="text-stone-500/90 font-serif text-sm sm:text-xl leading-relaxed px-12 sm:px-0">
+                  <p className="text-stone-800/90 font-serif text-sm sm:text-xl leading-relaxed px-12 sm:px-0">
                     A celebration of tradition and love. Join us for a beautiful afternoon ceremony followed by an evening of dining and dancing.
                   </p>
                 </div>
@@ -53,8 +53,6 @@ export const PoruwaEvent: React.FC = () => {
                         <span>Friday, July 31, 2026</span>
                       </h4>
                       <h5 className="font-sinhala text-lg text-stone-700/90 mb-2">2026 ජූලි 31 සිකුරාදා</h5>
-                      <p className="text-stone-700/90 text-xs sm:text-sm uppercase tracking-[0.2em] font-bold">Seethawaka Regency (Diamond Hall), Awissawella</p>
-                      <p className="text-stone-700/90 font-sinhala text-sm sm:text-base mt-1 tracking-wide">සීතාවක රීජන්සි (ඩයමන්ඩ් හෝල්), අවිස්සාවේල්ල</p>
                     </div>
                   </div>
 
@@ -66,7 +64,7 @@ export const PoruwaEvent: React.FC = () => {
                     <div>
                       <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500 flex items-center gap-2">
                         <span>09:30 AM - 04:00 PM</span>
-                        <span className="font-sinhala text-base text-stone-600/90 hidden sm:inline">(පෙ.ව. 09:30 - ප.ව. 04:00)</span>
+                        <span className="font-sinhala text-base text-stone-900/90 hidden sm:inline">(පෙ.ව. 09:30 - ප.ව. 04:00)</span>
                       </h4>
                       <p className="text-stone-700/90 text-xs sm:text-sm uppercase tracking-[0.2em] font-bold">Function</p>
                       <p className="text-stone-700/90 font-sinhala text-sm sm:text-base mt-1">මංගල උත්සවය</p>
@@ -80,7 +78,7 @@ export const PoruwaEvent: React.FC = () => {
                     <div>
                       <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500 flex items-center gap-2">
                         <span>10:00 AM</span>
-                        <span className="font-sinhala text-base text-stone-600/90 hidden sm:inline">(පෙ.ව. 10:00)</span>
+                        <span className="font-sinhala text-base text-stone-900/90 hidden sm:inline">(පෙ.ව. 10:00)</span>
                       </h4>
                       <p className="text-stone-700/90 text-xs sm:text-sm uppercase tracking-[0.2em] font-bold">Poruwa Ceremony</p>
                       <p className="text-stone-700/90 font-sinhala text-sm sm:text-base mt-1">පෝරුවේ චාරිත්‍ර</p>
@@ -126,10 +124,10 @@ export const PoruwaEvent: React.FC = () => {
                   <span>Tradition & Joy</span>
                 </h4>
                 <div className="flex flex-col gap-2 mt-2">
-                  <p className="text-stone-500/90 font-serif text-[11px] sm:text-[14px] leading-snug">
+                  <p className="text-stone-800/90 font-serif text-[11px] sm:text-[14px] leading-snug">
                     Honor our heritage and celebrate late into the night.
                   </p>
-                  <p className="text-stone-500/80 font-sinhala text-[11px] sm:text-[13px] leading-snug">
+                  <p className="text-stone-800/80 font-sinhala text-[11px] sm:text-[13px] leading-snug">
                     අපගේ උරුමයට ගරු කරමින් රාත්‍රිය දක්වා සමරන්න.
                   </p>
                 </div>
