@@ -78,7 +78,7 @@ export default function App() {
 
             <HeroContent />
 
-            <section id="countdown" className="py-16 sm:py-32 relative overflow-hidden bg-brand-dark flex flex-col justify-center">
+            <section id="countdown" className="py-16 sm:py-32 min-h-[100dvh] relative overflow-hidden bg-brand-dark flex flex-col justify-center">
               {/* Background Image */}
               <div 
                 className="absolute inset-0 z-0" 
@@ -120,7 +120,7 @@ export default function App() {
               </div>
             </section>
 
-            <section id="couple" className="py-16 sm:py-32 relative overflow-hidden bg-brand-ivory flex flex-col justify-center">
+            <section id="couple" className="py-16 sm:py-32 min-h-[100dvh] relative overflow-hidden bg-brand-ivory flex flex-col justify-center">
               {/* Background Image */}
               <div 
                 className="absolute inset-0 z-0" 
@@ -137,7 +137,7 @@ export default function App() {
               </div>
             </section>
 
-            <section id="poruwa" className="relative overflow-hidden bg-brand-ivory">
+            <section id="poruwa" className="relative min-h-[100dvh] flex flex-col justify-center overflow-hidden bg-brand-ivory">
               {/* Background Image */}
               <div 
                 className="absolute inset-0 z-0" 
@@ -154,7 +154,7 @@ export default function App() {
               </div>
             </section>
 
-            <section id="addresses" className="py-16 sm:py-32 relative overflow-hidden bg-brand-ivory">
+            <section id="addresses" className="py-16 sm:py-32 min-h-[100dvh] flex flex-col justify-center relative overflow-hidden bg-brand-ivory">
               {/* Background Image */}
               <div 
                 className="absolute inset-0 z-0" 
@@ -171,7 +171,7 @@ export default function App() {
               </div>
             </section>
 
-            <section id="rsvp" className="py-16 sm:py-32 relative overflow-hidden bg-brand-ivory">
+            <section id="rsvp" className="py-16 sm:py-32 min-h-[100dvh] flex flex-col justify-center relative overflow-hidden bg-brand-ivory">
               {/* Background Image */}
               <div 
                 className="absolute inset-0 z-0" 
@@ -188,7 +188,7 @@ export default function App() {
               </div>
             </section>
 
-            <section id="gallery" className="relative overflow-hidden bg-brand-ivory">
+            <section id="gallery" className="relative min-h-[100dvh] flex flex-col justify-center overflow-hidden bg-brand-ivory">
               {/* Background Image */}
               <div 
                 className="absolute inset-0 z-0" 

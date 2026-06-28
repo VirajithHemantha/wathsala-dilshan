@@ -110,28 +110,7 @@ export const PoruwaEvent: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-poruwa-primary/20 to-transparent mix-blend-overlay opacity-60 group-hover:opacity-30 transition-opacity duration-1000" />
               </div>
 
-              <motion.div
-                initial={{ opacity: 0, x: 30, y: 30 }}
-                whileInView={{ opacity: 1, x: 0, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: 0.6, duration: 1, ease: "easeOut" }}
-                className="absolute -bottom-6 sm:-bottom-10 -right-2 sm:-right-12 bg-white/95 backdrop-blur-xl p-4 sm:p-8 shadow-xl rounded-2xl max-w-[200px] sm:max-w-[280px] border border-poruwa-light/30"
-              >
-                <div className="absolute inset-x-8 -top-px h-[2px] bg-gradient-to-r from-transparent via-poruwa-primary/60 to-transparent" />
-                <Sparkles className="w-5 h-5 text-poruwa-primary mb-3" />
-                <h4 className="font-display text-xl sm:text-2xl text-stone-800 mb-1 flex flex-col">
-                  <span className="font-sinhala text-lg mb-1">සම්ප්‍රදාය සහ සතුට</span>
-                  <span>Tradition & Joy</span>
-                </h4>
-                <div className="flex flex-col gap-2 mt-2">
-                  <p className="text-stone-800/90 font-serif text-[11px] sm:text-[14px] leading-snug">
-                    Honor our heritage and celebrate late into the night.
-                  </p>
-                  <p className="text-stone-800/80 font-sinhala text-[11px] sm:text-[13px] leading-snug">
-                    අපගේ උරුමයට ගරු කරමින් රාත්‍රිය දක්වා සමරන්න.
-                  </p>
-                </div>
-              </motion.div>
+
             </motion.div>
           </div>
         </div>

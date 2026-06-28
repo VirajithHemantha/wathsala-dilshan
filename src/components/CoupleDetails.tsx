@@ -35,13 +35,10 @@ export const CoupleDetails: React.FC = () => {
               <div className="w-1 h-1 rounded-full bg-brand-primary ml-2"></div>
             </div>
 
-            <span className="text-brand-primary font-sinhala tracking-wider text-xl sm:text-2xl mb-4">
-              මනාලයා
-            </span>
+
 
             <h3 className="flex flex-col items-center gap-1 mb-6">
               <span className="text-4xl sm:text-8xl lg:text-9xl font-display text-brand-primary drop-shadow-sm leading-none mb-2">Dilshan</span>
-              <span className="text-stone-800 font-sinhala text-2xl sm:text-3xl font-normal">දිල්ෂාන්</span>
             </h3>
 
             <div className="flex items-center justify-center w-full max-w-[240px] mb-6 opacity-70">
@@ -54,7 +51,6 @@ export const CoupleDetails: React.FC = () => {
 
             <div className="flex flex-col items-center gap-2">
               <p className="text-stone-800 font-serif italic text-xl sm:text-2xl">Son of Mr & Mrs Jayarathna</p>
-              <p className="text-stone-800 font-sinhala text-lg sm:text-xl">ජයරත්න යුවළගේ පුත්</p>
             </div>
           </div>
         </motion.div>
@@ -80,13 +76,10 @@ export const CoupleDetails: React.FC = () => {
               <div className="w-1 h-1 rounded-full bg-brand-primary ml-2"></div>
             </div>
 
-            <span className="text-brand-primary font-sinhala tracking-wider text-xl sm:text-2xl mb-4">
-              මනාලිය
-            </span>
+
 
             <h3 className="flex flex-col items-center gap-1 mb-6">
               <span className="text-4xl sm:text-8xl lg:text-9xl font-display text-brand-primary drop-shadow-sm leading-none mb-2">Wathsala</span>
-              <span className="text-stone-800 font-sinhala text-2xl sm:text-3xl font-normal">වත්සලා</span>
             </h3>
 
             <div className="flex items-center justify-center w-full max-w-[240px] mb-6 opacity-70">
@@ -99,7 +92,6 @@ export const CoupleDetails: React.FC = () => {
 
             <div className="flex flex-col items-center gap-2">
               <p className="text-stone-800 font-serif italic text-xl sm:text-2xl">Daughter of Mr & Mrs Kelum</p>
-              <p className="text-stone-800 font-sinhala text-lg sm:text-xl">කැළුම් යුවළගේ දියණිය</p>
             </div>
           </div>
         </motion.div>

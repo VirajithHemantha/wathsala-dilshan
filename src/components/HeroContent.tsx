@@ -13,7 +13,7 @@ export const HeroContent: React.FC = () => {
     : `Together with our families, we joyfully invite you to join us`;
 
   return (
-    <section className="relative min-h-[60vh] sm:min-h-screen pt-16 pb-12 sm:py-32 flex items-start sm:items-center justify-center overflow-hidden">
+    <section className="relative min-h-[100dvh] pt-16 pb-12 sm:py-32 flex items-start sm:items-center justify-center overflow-hidden">
       <CornerFlowers position="all" opacity={0.8} scale={1.8} />
       {/* Background Image with Elegant Overlays */}
       <div className="absolute inset-0 z-0 bg-brand-ivory overflow-hidden">
@@ -46,9 +46,6 @@ export const HeroContent: React.FC = () => {
             <span className="text-brand-primary uppercase tracking-[0.6em] text-xs sm:text-sm font-bold drop-shadow-md font-sans">
               The Celebration of Love
             </span>
-            <span className="text-brand-primary font-sinhala tracking-[0.1em] text-base sm:text-lg font-bold drop-shadow-md">
-              ආදරයේ සැමරුම
-            </span>
           </div>
 
           <div className="relative mb-12 w-full flex justify-center text-center">
@@ -67,9 +64,6 @@ export const HeroContent: React.FC = () => {
             <div className="flex flex-col items-center gap-4 max-w-2xl text-center px-4">
               <p className="text-xl sm:text-3xl font-serif italic text-stone-900 tracking-wide leading-relaxed drop-shadow-sm font-medium">
                 {invitationText}
-              </p>
-              <p className="text-lg sm:text-2xl font-sinhala text-stone-900 leading-relaxed font-bold drop-shadow-sm">
-                {(prefix && name) ? `${prefix} ${name} වෙත, අපගේ විවාහ මංගල්‍යයට එක්වන ලෙස අපි ඉතා සතුටින් ඔබට ආරාධනා කරන්නෙමු` : `අපගේ පවුල් සමඟ, අපගේ විවාහ මංගල්‍යයට එක්වන ලෙස අපි ඉතා සතුටින් ඔබට ආරාධනා කරන්නෙමු`}
               </p>
             </div>
             <div className="hidden sm:block h-[1px] w-24 bg-gradient-to-l from-transparent to-brand-primary/60" />
