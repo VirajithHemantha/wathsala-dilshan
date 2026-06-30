@@ -32,7 +32,7 @@ export const AddressesSection: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-2xl font-serif text-stone-800 mb-1">Seethawaka Regency</p>
-                  <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-black leading-relaxed">(Diamond Hall), Awissawella</p>
+                  <p className="text-[11px] uppercase tracking-[0.2em] font-bold text-black leading-relaxed mb-4">(Diamond Hall), Awissawella</p>
                   <p className="text-stone-800/90 italic font-serif text-lg leading-relaxed max-w-sm mb-10 pl-4 border-l-[1.5px] border-brand-champagne/40">
                     "A serene and elegant setting where we will begin our new chapter together."
                   </p>

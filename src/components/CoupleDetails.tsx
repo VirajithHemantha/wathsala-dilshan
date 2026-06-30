@@ -49,7 +49,7 @@ export const CoupleDetails: React.FC = () => {
               <div className="w-1 h-1 rounded-full bg-brand-primary ml-2"></div>
             </div>
 
-            <div className="flex flex-col items-center gap-2">
+            <div className="flex flex-col items-center gap-2 mb-12">
               <p className="text-stone-800 font-serif italic text-xl sm:text-2xl">Son of Mr & Mrs Jayarathna</p>
             </div>
           </div>

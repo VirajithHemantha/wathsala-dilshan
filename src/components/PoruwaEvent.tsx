@@ -37,7 +37,7 @@ export const PoruwaEvent: React.FC = () => {
 
                 <div className="flex flex-col gap-4 mb-6 sm:mb-16 max-w-lg">
                   <p className="text-stone-800/90 font-serif text-sm sm:text-xl leading-relaxed px-12 sm:px-0">
-                    A celebration of tradition and love. Join us for a beautiful afternoon ceremony followed by an evening of dining and dancing.
+                    A celebration of love and tradition. Join us for our beautiful wedding ceremony, followed by a joyful wedding celebration.
                   </p>
                 </div>
 
